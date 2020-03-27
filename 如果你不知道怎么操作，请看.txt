@@ -13,6 +13,7 @@ git checkout dev (切换到dev分支)
 
 当前分支   dev
 git merge futrue  (将自己的分支合并到公共分支dev)
+！！！在push之前还要先git pull一下，看看有没有冲突问题存在呦！！！
 git push origin dev  (这一步是将你的信息更新到远程的dev分支，其他人才能clone)
 
 1111111111111
