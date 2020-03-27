@@ -1,11 +1,17 @@
 步骤：
+
 当前分支  dev
 这dev分支是我们共同的分支，你需要自己创建一个属于自己的分支  futrue
 ## 创建并切换分支  git checkout -b futrue
+
 当前分支  futrue
 在这个分支上，写上你的数据
 ## 写完后   
 git add .
 git commit -m '日志信息'
+git checkout dev (切换到dev分支)
+
+当前分支   dev
+git merge futrue  (将自己的分支合并到公共分支dev)
 git push origin dev  (这一步是将你的信息更新到远程的dev分支，其他人才能clone)
 
